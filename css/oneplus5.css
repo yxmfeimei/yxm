@@ -1,0 +1,1427 @@
+
+.yxm{background: #F3F3F3;}
+.header {
+	width: 100%;
+}
+
+.container,
+.container-fluid { }
+
+.oneplus5-nav2 {
+	list-style: none;
+}
+
+.oneplus5-nav2 li {
+	float: left;
+}
+
+.oneplus5-nav2 li a {
+	line-height: 60px;
+	display: block;
+	padding: 0 24px;
+	opacity: 0.8;
+}
+
+.oneplus5-nav2-fixed {
+	width: 100%;
+	background: #FFFFFF !important;
+	border-bottom: 1px solid rgba(82, 82, 82, .1);
+}
+
+.oneplus5-nav2 li a:hover {
+	opacity: 1;
+	text-decoration: none;
+	color: black;
+	-moz-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	-webkit-transition: all .6s ease;
+	transition: all .6s ease;
+}
+
+.join {
+	background: #Eb0028;
+	display: block;
+	line-height: 60px;
+	text-align: center;
+	color: white;
+}
+
+.fixed-nav2 {
+	position: fixed;
+	left: 0%;
+	top: 0;
+	z-index: 100;
+	opacity: 0.6;
+}
+
+
+/*试试*/
+
+.fadeword {
+	margin: 0 auto;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+
+/*.bg{
+	 
+    background: url(../img/oneplus5-imgs/phone.png) top center no-repeat;
+    
+    position: absolute;
+    top: 1000px
+    width:100%;
+    height: 500px;
+    
+   
+     
+}*/
+
+.fadeword {
+	/*border: 1px solid red; */
+	position: relative;
+	width: 100%;
+	height: 800px;
+	z-index: 1;
+}
+
+.abs-fadeout {
+	/*border: 1px solid green;*/
+	position: fixed;
+	left: 38%;
+	z-index: 1;
+	opacity: 1;
+}
+
+.bg {
+	/*border: 1px solid blue;*/
+	width: 100%;
+	height: 100%;
+	background: url(../img/oneplus5-imgs/phone.png) top center no-repeat;
+	position: absolute;
+	bottom: -22%;
+	z-index: 10;
+}
+
+.abs-fadeout h2 {
+	margin-top: 0;
+	font-size: 50px;
+	margin-bottom: 1.5rem;
+	transition: all .5s ease;
+	line-height: 62px;
+}
+
+.abs-fadeout p {
+	font-size: 36px;
+	color: black;
+	line-height: 26px;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*border: 1px solid red;*/
+	transition: all .5s;
+}
+
+.abs-fadeout p:last-child {
+	margin-top: 2.5rem;
+	font-size: 26px;
+}
+
+.abs-fadeout p:last-child i {
+	font-size: 14px;
+}
+
+.y1 {
+	opacity: 0.5;
+}
+
+.y2 {
+	opacity: 0.4;
+}
+
+.y3 {
+	opacity: 0;
+}
+
+.y4 {
+	opacity: 1;
+}
+
+.section-video {
+	width: 100%;
+	height: 500px;
+	background: url(../img/oneplus5-imgs/section-video-bg.jpg);
+	/*弹性盒子*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-video-a-icon {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: url(../img/oneplus5-imgs/section-video-icon.png) center no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	/*background:  url(../img/oneplus5-imgs/section-video-icon.png);*/
+}
+
+.section-video-a-icon:hover {
+	background-color: rgba(255, 255, 255, .3);
+}
+
+.firstconnect {
+	position: relative;
+	width: 100%;
+	background-image: url(../img/oneplus5-imgs/first-bg.jpg);
+	height: 69.94792vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: transparent;
+}
+
+.firstconnect h2 {
+	margin-top: 0;
+	padding-top: 5rem;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+.text-box {
+	width: 38.33333%;
+ 
+	position: absolute;
+	top: 500px;
+	left: 100px;
+ 
+}
+
+.text-box .p-text {
+	font-size: 16px;
+	opacity: 0.8;
+}
+
+.text-box-word li {
+	display: none;
+}
+
+.text-box-word #text-show1 {
+	display: block;
+}
+
+
+.phone-box {
+	position: absolute;
+	right: 23.64583%;
+	top: 200px;
+	width: 20.57292%;
+	height: 600px;
+}
+
+.phone-box img {
+	display: none;
+}
+
+.phone-box #phone-img1 {
+	display: block;
+}
+
+.text-box-line {
+	margin-top: 100px;
+}
+
+.text-box-line-bottom {
+	float: left;
+	width: 50px;
+	border-bottom: 3px solid #737373;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.bottom-active {
+	border-bottom: 3px solid #000000;
+}.suosi-img{
+	width: 100%;
+	height: 36.45833vw;
+	background:  url(../img/oneplus5-imgs/lens.jpg) center no-repeat;
+	background-size: cover;
+}
+/*.list-itemdivleft {margin-left: -100px; }
+.list-itemdivrifht{margin-right: 20px;}*/
+.list-items{
+	
+	/*gaiguodedifang*/
+	margin-left: 0px;
+	
+	/*margin-left: 10%;*/
+	
+	margin-top: 150px;
+	}
+.list-items-imgs{
+	width: 50px;
+	height: 50px;
+	 
+	margin-left: 80px;
+	}
+	.h3-subtext{
+		margin-left: 60px;
+		}
+	.p-subtext{
+	 font-size: 18px;
+	text-align: center;    
+	color: #000;
+    line-height: 26px;
+    margin-bottom: 0;
+    opacity: .5;
+    }
+
+.carousel-indicators {
+    bottom: -100px !important;/*将远点向下移*/
+    padding-left: 200px;
+    }
+    
+ 
+.carousel-indicators li {
+	 float: left !important;
+    display: inline-block !important;
+    width: 50px !important ;
+    height: auto !important;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid # #3C763D !important;
+    border-bottom: 5px solid   #737373 !important;
+    
+}
+
+.carousel-indicators .active {
+    width: 50px !important;
+    height:auto !important;
+    margin: 0;
+    background-color:  red !important;
+    border-bottom: 5px solid    black !important;
+}
+
+.s-container{
+	/*height: 56.25vw;*/
+	height: 56.25vw; 
+    /*border: 1px solid red;*/ 
+    width: 100%;
+    position: relative;
+     
+    
+    
+	 }
+	 
+	 .s-container-gai{
+	/*height: 56.25vw;*/
+	height: 56.25vw; 
+    /*border: 1px solid red;*/ 
+    width: 100%;
+    position: relative;
+     
+    
+    
+	 }
+	 .main-box{
+	 	/*gailzheli*/
+	 	/*width: 1200px;*/
+	 	position: absolute;
+	 	top: 15%;
+	 	left: 10%;
+	 	z-index: 22;
+	 	color: white;
+	 	}
+	 .main-box .p-text,.slide-explainword p	{
+	 color: #fff;
+     max-width: 460px;
+     font-size: 16px;
+     line-height:30px;
+    }
+    .slide-explainword h2{
+    	color:white;
+    }
+.bg-black{
+	/*border: 2px solid blue;*/
+	height: 100%;
+    position: relative;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+	background-image: url(../img/oneplus5-imgs/bg.jpg);
+}
+.slide-black1{ 
+	width: 100%;
+	height: 100%;
+	}
+.slide-explainword{position: absolute;top: 60%;	left: 10%;}
+.img-black-box{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/phone1.png);
+	 
+ }
+  
+  
+  .slide-black12{ 
+	width: 100%;
+	height: 100%;
+	}
+  .img-black-box12{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/phone3.png);
+	 
+ }
+.slide-black13{ 
+	width: 100%;
+	height: 100%;
+	}
+  .img-black-box13{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/phone4.png);
+	 
+ }
+ 
+ 
+ .slide-black14{ 
+	width: 100%;
+	height: 100%;
+	}
+  .img-black-box14{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/phone2-silent.png);
+	 
+ }
+  
+  
+  
+
+  
+ .text-box-line1 .text-box-line-bottom1{
+ 	float: left;
+ 	margin-right:20px;
+ 	list-style:none;
+ 	border-bottom:2px solid  #999;
+ 	cursor: pointer;
+ 	z-index: 33;
+    width: 50px;
+ 	
+ }
+  .bottom1-active{border-bottom:2px solid white !important ;}
+ .text-box-line1{
+ 	position: absolute;
+ 	top:93%;
+ 	left:8%;
+ }
+.slide-p-text{
+	text-align: center;
+    margin-top: 140px;
+    opacity: .5;
+    line-height: 30px;
+    }
+    .bg-black  .heng{display: none;}
+    .bg-black .slide-black1{display: block;}
+    
+    .ul-silent{margin-top: 20px;}
+    
+    
+    .ul-silent li{float: left; margin-right: 80px; opacity: 1;     color: #fff;}
+    .ul-silent .silent:before{  
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: center no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+   	background-image: url(../img/oneplus5-imgs/icon-silent.png);
+   	 }
+ 
+ .ul-silent .priority:before{  
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: center no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+   	background-image: url(../img/oneplus5-imgs/icon-priority.png);
+   
+   	 }
+   	 
+
+ .ul-silent .all:before{  
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: center no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+   	background-image: url(../img/oneplus5-imgs/icon-all.png);
+   	 
+   	 
+   	 }
+   	 
+   	 .section-color{
+   	 	position: relative;
+   	 	height: 56.25vw;
+   	 }
+   	 /*.section-color .color-item{
+   	 	position:absolute;
+   	 	left: 0;
+   	 	width: 100%;
+   	 	height: 50%;
+   	 	border:1px solid red;
+   	 }
+ .section-color .color-item.phone-gray{
+ 	top: 0;
+ 	background: #edede;
+ }
+.section-color .color-item.phone-black{
+	
+ 	bottom: 0;
+ 	background:#000;
+ 
+ }*/
+ 
+.section-color .color-item h2.gray-h2{
+	position: absolute;
+	top:30%;
+	z-index: 2;
+	left: 15%;
+    cursor: pointer
+}
+.section-color .color-item h2.black-h2{
+	position: absolute;
+	top:40%;
+	z-index: 2;
+	left: 78%;
+    cursor: pointer;
+    color: white;
+}
+.section-color .color-item h2.gray-h2 svg,.section-color .color-item h2.black-h2 svg{
+	display: block;
+	margin-left: 18px;
+   	 
+    transform: rotate(0deg); 
+    transition: all 1s ease;
+}
+
+ .svg-black{
+  transition: all 1s ease;
+  transform: rotate(180deg); 
+  
+ }
+
+
+ .section-color .phone-gray{
+    
+    position:absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background: url(../img/oneplus5-imgs/color-gray.jpg);
+    background-color: transparent;
+    background-position: center top;
+    background-size: 101% auto;
+    transition: all 1s ease;
+    z-index: 1;
+}
+
+
+  .section-color .phone-gray-expand{
+  
+    position:absolute;
+    width: 100%;
+    height: 56.25vw  ;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background: url(../img/oneplus5-imgs/gray-expand.jpg)  ;
+    background-color: transparent;
+    background-position: center top;
+    background-size: 101% auto;
+    z-index:10px ;
+    
+}
+
+
+.phone-black-gray-hide{
+	display: none;
+}
+
+
+ .section-color .phone-black{
+    
+    position:absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background:  url(../img/oneplus5-imgs/color-black.jpg);
+    background-color: transparent;
+    background-position: center bottom;
+    background-size: 101% auto;
+    transition: all 1s ease 
+    
+}
+
+  .section-color    .phone-black-expand{
+  	
+  	position:absolute;
+    width: 100%;
+    height:100% ;
+    left:0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background:url(../img/oneplus5-imgs/black-expand.jpg);
+    background-color: transparent;
+    background-position: center bottom;
+    background-size: 101% auto;
+    
+  }
+
+
+.maintest{
+	color: #fff;
+    background-color: #100f10;
+    text-align: center;
+    margin-top: -20px;
+    }
+    .section-test{width: 100%; padding: 80px 0;}
+    #iconicon{width: 42px;height: 42px;  margin: 0 auto;}
+.icon-svg{
+	width:100%;
+	height: 100%;
+	background: url(../img/oneplus5-imgs/arrow-white.svg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition: all 1s ease;
+     
+  }
+  
+  .icon-svg-changedafter{
+  	  /*transition: all 1s ease;*/
+  	  transform: rotate(-90deg);
+  }
+  
+  .h2-hide{display: none;}
+    #context-id{
+  	width: 75%;
+    margin: 0 auto; 
+    transition: all 4s ease;
+    }
+  .context{
+   
+  display: none;
+     
+    }
+    
+    .context-show{
+    	width: 75%;
+         margin: 0 auto; 
+    	display: block;
+    	transition: all 4s ease;
+    }
+    
+    .context-datail{
+    	margin-top: 10%;
+    }
+    .count{
+    	font-size: 26px;
+    	margin-bottom: 10px;
+    }
+    .row1,.row2,.row3,.row4{padding: 40px 0; border-top: 1px solid  #333333;}
+    .row4{border-bottom: 1px solid #333333;}
+  
+     
+     
+     
+     
+   
+    .text-box-line2 .text-box-line-bottom2{
+ 	float: left;
+ 	margin-right:20px;
+ 	list-style:none;
+ 	border-bottom:2px solid  #999;
+ 	
+ 	z-index: 33;
+    width: 50px;
+ 	
+ }
+ .text-box-line2 .bottom21-active{border-bottom:2px solid black;} 
+  .bottom22-active{border-bottom:2px solid white !important ;}
+  .text-box-line2{
+ 	position: absolute;
+ 	top:60%;
+ 	left:8%;
+ }  
+ 
+   .text-box-line2 li:hover{
+ 	 cursor: pointer;
+ }  
+ .h2-change-black{color: black; margin-top: 10%;}
+  .h2-change-white{color: white ;}
+ .bg-black2{
+	/*border: 2px solid blue;*/
+	
+	height: 56.25vw; 
+    /*border: 1px solid red;*/ 
+    width: 100%;
+   
+	
+	
+	/*height: 100%;*/
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+	background: #f2f2f2;
+}
+.slide-black21{ 
+	width: 100%;
+	height: 100%;
+	}
+.slide-explainword21{position: absolute;top: 38%;	left: 10%;}
+.img-black-box32{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/smart-bg.jpg);
+	 
+ }
+  
+  
+  .slide-black22{ 
+	width: 100%;
+	height: 100%;
+	}
+  .img-black-box33{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/cooler-bg.jpg);
+	 
+	 
+ }
+.slide-black23{ 
+	width: 100%;
+	height: 100%;
+	}
+  .img-black-box23{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/unlocked-bg.jpg) 
+	
+ }
+ 
+  .bg-black2  .heng{display: none;}
+  .bg-black2 .slide-black21{display: block;}
+ 
+
+ .zhexiantu{
+ 	position: absolute;
+    top: 10%;
+    left: 50%;
+    /*border: 1px solid red;*/
+   /*gaidedifang*/
+    /*width: 663px;*/
+   
+    height: 721px;
+ }
+ .zhexiantu ul{  margin-left: -35px;}
+ 
+    
+ .zhexiantu ul li {
+ 
+ float: left;
+ display: block; 
+ width: auto; 
+  /*height: 60px;*/
+  }
+  .zhexiantu ul li:hover {
+ cursor: pointer;
+  opacity: 0.8;
+  }
+.zhexiantu-right:after{
+	content: '';
+	display: inline-block;
+	width: 2px;
+	height: 20px;
+	background: black;
+	margin: 0 40px;
+	opacity: .3;
+	
+}
+.zhexian-imgs{ 
+	height: 721px;
+	 /*gaidedifang*/
+	width:100%;
+	
+	/*width:663px;*/
+	
+	/*border: 1px solid pink;*/
+	background-repeat: no-repeat;
+	background-image: url(../img/oneplus5-imgs/coordinate-bg.png);
+	margin-top: 90px;
+	}
+.zhexiantu-right-span{font-size: 20px;  opacity: 0.5;} 
+.zhexiantu-img1,.zhexiantu-img2,.zhexiantu-img3{
+	width: 100%; 
+	height: 458px; 
+	/*border: 1px solid black;*/
+	}
+	.zhexiantu-img1{display: block;}
+	.zhexiantu-img2,.zhexiantu-img3{display: none;}
+	.hexiantu-img1-img{
+		 width: 100%;
+		 height: 100%; 
+	}
+  .zhexiantu-right-span.zexiantu-active { color:black; opacity: 1 !important;}
+
+.ant5{margin-top: 50px;}
+.zhexiantu-text{margin-top: 50px; opacity: 0.7;}
+.ant5 li{float: left; margin-right: 40px; }
+.ant5 .ant5-li1:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	display: inline-block;
+	margin-right: 10px;
+}
+.ant5 .ant5-li2:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #0099cc;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.ant5 .ant5-li3:before{
+	content:'';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #ff9b30;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+.first-content{
+	position: relative;
+	width: 100%;
+	height: 900px;
+	background-image:url(../img/oneplus5-imgs/phone-bg.jpg) ;
+	background-size: cover;
+}
+
+.first-content-top{
+	position: absolute;
+	top: 10%;
+	left: 13%;
+    text-align: center;
+    }
+    .first-content-top h2{ color: white;}
+    .first-content-top p{ color: white; opacity: .5; font-size: 18px;} 
+.first-content-bottom{
+	position: absolute;
+	bottom: 9%;
+	left: 30%;
+	text-align: center;
+	}
+	
+
+.cell-content-images{width: 100%; height: 595px;margin-top: 10%;  }
+ 
+.cell-content{ width:50%; padding: 0 0;/* margin-top: 150px;*/ background: white;height: 595px;}
+
+.cell-content-image1{
+	width: 50%;
+    height: 595px;
+	padding: 0 0;
+	float: left;
+}
+.cell-content-h3-style-1,.cell-content-h3-style-2,.cell-content-h3-style-3{padding-left: 100px; margin-top: 200px;}
+.cell-content-h3{margin-top: 20px;}
+.cell-content-p1{margin-top: 20px; opacity: .4;padding-left: 100px;}
+.cell-content-p2{margin-top: 200px; opacity: .4; padding-left: 100px;}
+.cell-content-h3 .cell-content-h3-style-1:before{
+	content: '';
+	width: 55px;
+	height: 50px;
+	background-image:url(../img/oneplus5-imgs/icon-ram.svg);
+	background-size: cover;
+	background-repeat:no-repeat ;
+    display: block;margin-bottom: 3rem;
+	
+}
+.cell-content-h3 .cell-content-h3-style-2:before{
+	content: '';
+	width: 55px;
+	height: 50px;
+	background-image:url(../img/oneplus5-imgs/icon-storage.svg);
+	background-size: cover;
+	background-repeat:no-repeat ;
+    display: block;margin-bottom: 3rem;
+	
+}
+.cell-content-h3 .cell-content-h3-style-3:before{
+	content: '';
+	width: 55px;
+	height: 53px;
+	background-image:url(../img/oneplus5-imgs/icon-priority.svg);
+	background-size: cover;
+	background-repeat:no-repeat ;
+    display: block;margin-bottom: 3rem;
+	
+}
+.cell-content-image1a{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/oneplus5-imgs/ram-bg.jpg);
+	background-size: cover;
+	background-repeat:no-repeat ;
+	
+}
+
+.cell-content-image1aa{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/oneplus5-imgs/storage-bg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.cell-content-image1aaa{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/oneplus5-imgs/priority-bg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section-network{
+	width: 100%; 
+	height: 62.5vw;
+    overflow: hidden;
+    position: relative;
+    }
+    
+    .bg-black21{
+	/*border: 2px solid blue;*/
+	height: 100%;
+    position: relative;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+	background-image: url(../img/oneplus5-imgs/bg.jpg);
+}
+ 
+ .section-network-main-box{
+ 	position: absolute;
+ 	/*改过的difang*/
+ 	/*width: 1200px;*/
+    top: 34%;
+    left: 58%;
+    z-index: 22;
+    color: white;
+ }
+.slide-explainword1 {
+    position: absolute;
+    top: 40%;
+    left: 58%;
+}
+
+ .section-network-main-box .p-text,.slide-explainword1 p	{
+	 color: #fff;
+     max-width: 460px;
+     font-size: 16px;
+     line-height:30px;
+    }
+    .slide-explainword1 h2{
+    	color:white;
+    }
+    .slide-explainword1-p{
+    	opacity: .6;
+    }
+.slide-explainword1-h3{color: white;}
+.text-box-line-network .text-box-line-bottom-network{
+ 	float: left;
+ 	margin-right:20px;
+ 	list-style:none;
+ 	border-bottom:2px solid   #5E5E5E;
+ 	
+ 	z-index: 1;
+    width: 50px;
+ 	
+ }
+  .text-box-line-network .bottom-network-active{border-bottom:2px solid white;}
+ .text-box-line-network{
+ 	position: absolute;
+ 	top: 60%;
+    left: 56%;
+ }
+ .text-box-line-bottom-network:hover{cursor: pointer;}
+  .bg-black21  .heng{display: none;}
+  .bg-black21 .slide-black1{display: block;}
+   
+   
+   .img-black-box21{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/onephone-bg.jpg);
+	 
+ }
+  
+  
+  .slide-black22{ 
+	width: 100%;
+	height: 100%;
+	}
+  .img-black-box22{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/sim-bg.jpg);
+	 
+	 
+ }
+.slide-black23{ 
+	width: 100%;
+	height: 100%;
+	}
+  .img-black-box23{
+	/*position: absolute;
+    top: 0;*/
+    /*border: 2px solid green;*/
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image:url(../img/oneplus5-imgs/unlocked-bg.jpg) 
+	
+ }
+ 
+
+
+
+
+
+
+
+ 
+.last-slide{
+	width: 100%;
+    height:36.45833vw;
+    height: 500px  ;
+    background-color: #fff;
+    position:  relative;
+   
+}
+.last-slide-left{float: left;}
+.last-slide-right{float: left;}
+.last-slide-left{
+	width: 50%;
+	height: 100%;
+ 
+    padding-left: 6%;
+}
+
+ .last-slide-right{
+	width: 50%;
+	height: 100%;
+ 
+    
+}
+
+
+.base-feel{margin-left: 6%;    margin-top: 7%;}
+.base-feel h2{font-size: 38px;}
+.base-decript{margin-top: 7%;}
+.base-decript-p{line-height: 29px; opacity: .6;}
+.last-slide-img{
+	width: 100%;
+	height: 500px;
+}
+.last-line-ul-li1{
+	float: left;
+	margin-right: 10px;
+	border-bottom: 2px solid   #999999;
+	width: 50px;
+	cursor: pointer;
+}
+
+.last-line-ul-li1:hover{
+	 
+	border-bottom: 2px solid #565B62 ;
+	 
+}
+
+
+.base-decript ol .base-decript-common{display: none;}
+.last-slide-right .last-slide-right-img{display: none;}
+  .base-decript ol  .base-decript-li-show{display: block;}
+ .last-slide-right .last-slide-right-img-show{
+ 	display: block;
+ 	}
+ .bottom-network-active-last{
+ 	border-bottom: 2px solid black;
+ 	}
+.last-line{
+	margin-top: 15%;
+	}
+
+.read{
+	width:100%;
+	height:auto; 
+	 
+	text-align: center; 
+	margin-top: 5%;
+	}
+.read-h{ padding-top: 5%;}
+.read-ul{
+	width: 415px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    
+    }
+ .read-ul ul{
+ 	border-bottom: 2px solid  #d7d7d7;  
+ 	margin-bottom: 1.5rem;
+ 	/*overflow: auto;*/
+ 	padding-left: 0px;
+ 	display: inline-block;
+ 	} 
+.read-ul ul  li{
+	float: left; 
+	padding-left: 0px;   
+	margin-right: 90px;
+    cursor: pointer;
+	}
+	
+	.read-ul ul  li:hover span{
+	 opacity: 1 !important;
+	 color: #000000;
+	
+	}
+	
+	
+.read-ul ul  li.read-ul-right0{ 
+	margin-right: 0px;
+	}
+.read-ul  ul li span{    
+	font-size: 18px;
+    opacity: .5;
+    }
+.read-ul  ul .read-ul-li-line{
+	border-bottom: 2px solid black;
+	position: relative;
+	top:2px;
+    
+  }
+  
+  .read-ul  ul .read-ul-li-line .span-blcak{
+	color: #000000;
+    opacity: 1;
+  }
+  
+  
+.read-slide{
+	width: 100%; 
+	height: 836px; 
+	/*border:  1px solid blue;*/ 
+	margin-top: 40px;
+	}
+.read-slide .read-slide-1{display: none;}
+.read-slide #read-slide-id1{display: block;}
+
+.read-img1,.read-img2,.read-img3{width:100%;height: 694px; margin-top: 100px;}
+.read-img1{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/oneplus5-imgs/screen-bg.jpg);
+	
+}
+
+.read-img2{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/oneplus5-imgs/mode-gray.jpg);
+	
+}
+
+.read-img3{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/oneplus5-imgs/mode-gray-night.jpg);
+	
+}
+
+.read-explain-p{
+	font-size: 18px;
+    opacity: .5;
+}
+
+.phone-box img{
+	width: 280px;
+    height: 523px;
+    margin-top: 100px;
+    }
+    .oneplus-aaaa{display: none;}
+@media (max-width: 990px) {
+	.h3-subtext {
+     margin-left: 0px; 
+}
+	
+}
+@media (max-width: 750px) {
+	 .text-box{
+	 	top: 120px;
+        left: 50px;
+	 }
+	.phone-box img{
+    width: 146px;
+    margin-top: -50px;
+    height: 258px;
+  
+	}
+	.oneplus5-nav2-fixed .col-md-8{display: none;}
+	 .oneplus-aaaa{display: block;}
+	 
+	 
+	 .cell-content {
+    width: 100%;
+    padding: 0 0;
+    background: white;
+    height: auto;
+    margin-top: -196px;
+
+}
+	 .cell-content-images {
+    width: 100%;
+    height: 595px;
+    margin-top: 10%;
+}
+.cell-content-image1 {
+    width: 100%;
+    height: 595px;
+    padding: 0 0;
+    
+    
+    
+}
+.image-none{
+   display: none;
+     
+    }
+    
+  .cell-content-p2 {
+   margin-top:  5px; 
+    
+}
+ /*.zhexiantu{display: none;}*/
+    
+  .text-box-line2 {
+   left: 2%;
+    top: 85%;  
+}  
+
+.first-content {
+    
+    
+    margin-top: 180px;
+}
+.zhexiantu-right-span {
+    
+    font-size: 12px;
+}
+.main-box {
+    margin-left: -40px;
+}
+.slide-explainword21 {
+     
+    left: 2%;
+}
+.zhexiantu{top:1%}
+ 
+
+.slide-explainword {
+   
+    top: 53%;
+    left: 4%;
+}
+
+.slide-explainword h2 {
+   
+    font-size: 18px;
+}
+
+ .slide-explainword p {
+   
+    font-size: 15px;
+}
+.text-box-line1 {
+    top: 96%;
+    left: 0%;
+}
+
+  .slide-black14 .slide-explainword {
+    
+    top: 45%;
+    left: %;
+}
+
+.first-content-top {
+     
+    top: 10%;
+    left: %;
+    
+}
+.first-content-bottom {
+   
+    left: 10%;
+    
+}
+.first-content {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.s-container-gai {
+        margin-top: -200px;
+}
+.carousel-indicators {
+    bottom: -100px !important;
+    padding-left: 0px !important;
+     
+    width: 80%;
+}
+  
+  
+  .section-network-main-box {
+    top: 1%;
+    
+}
+.slide-explainword1 {
+     
+    top: 10%;
+   
+}
+.arrowdiv4 {
+     
+     border-bottom: 0px solid #999999; 
+   
+}
+.list-itemdivleft .p-subtext {
+    
+     text-align: left; 
+    
+}
+.list-items-imgs {
+    
+    margin-left:  0px;
+}
+#carousel-examples{
+	    margin-left: 30% !important;
+}
+
+
+
+
+ .arrowdown1, .arrowdown2, .arrowdown3, .arrowdown4 {
+    width: 25px;
+    height: 12px;
+     
+    background-size: cover;
+}
+.arrowfooter span {
+    font-size: 16px;
+}
+
+
+
+
+
+
+}
+@media (max-width: 660px)
+ 
+.phone-box img {
+    /*width: 140px !important;*/
+    margin-top: -55px !important;
+    /*height: 258px !important;*/
+}
+ 
