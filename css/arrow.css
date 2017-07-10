@@ -1,0 +1,132 @@
+	.arrowdiv1,
+	.arrowdiv2,
+	.arrowdiv3 {
+		width: 25%;
+		float: left;
+	}
+	
+	.arrowdown1,
+	.arrowdown2,
+	.arrowdown3,
+	.arrowdown4 {
+		width: 30px;
+		height: 16px;
+		background-image: url(../img/arrow.png);
+		background-position: 0 -16px;
+		background-repeat: no-repeat;
+	}
+	
+	.arrowup1,
+	.arrowup2,
+	.arrowup3,
+	.arrowup4 {
+		background-image: url(../img/arrow.png);
+		background-position: 0 0px;
+		background-repeat: no-repeat;
+	}
+	
+	.menu>li>a {
+		position: relative;
+		display: block;
+	}
+	
+	.menu>li>a:hover,
+	.menu>li>a:focus {
+		text-decoration: none;
+		color: #000000;
+		background: white;
+	}
+	
+	.arrowfooter span {
+		font-size: 20px;
+	}
+	
+	.arrowfooter ul.icons span {
+		line-height: 30px;
+		font-size: 18px;
+		color: #999999;
+		margin: 0 15px;
+	}
+	
+	
+	
+	.arrowdiv4 p{width:80%; border: 1px solid black; line-height: 40px; text-align: center;}
+	.arrowdiv4 .kefutel{ 
+	  
+	width: 80%; 
+	height: 50px; 
+	text-align: center; 
+	line-height: 50px;
+	
+	}
+	
+	.yijiamiddleimg{ width: 60px; height: 25px; p}
+	@media (min-width: 768px) {
+		.navbar-nav {
+			float: none;
+		}
+		.kefuwenzi,
+		.kefuaddress,
+		.kefuimg {
+			display: none;
+		}
+		.kefutel {
+			padding-left: 17%;
+		}
+	}
+	
+	@media (max-width: 762px) {
+		.arrowfooter nav.menu li {
+			display: block;
+			text-align: left;
+		}
+		.arrowfooter nav.menu li a {
+			line-height: 10px;
+		}
+		.arrowfooter nav.menu {
+			display: none;
+		}
+		.arrowdiv1,
+		.arrowdiv2,
+		.arrowdiv3,
+		.arrowdiv4 {
+			width: 100%;
+			border-bottom: 1px solid #999999;
+			line-height: 50px;
+		}
+		.arrowdiv4 .kefutel {
+			font-size: 13px;
+			width: 20%;
+			color: blue;
+		}
+		.kefuwenzi,
+		.kefuaddress,
+		.kefuimg {
+			display: inline;
+		}
+		.arrowdiv4 p {
+			width: 100% !important;
+		}
+		.yijiaright {
+			display: none;
+		}
+		.yjiafooter {
+			height: 150px;
+			padding-top: 30px;
+		}
+	}
+	
+	@media (max-width: 500px) {
+		.kefuaddress {
+			display: none;
+		}
+		.yijiaright {
+			display: none;
+		}
+		.spanstyle {
+			font-size: 18px !important;
+		}
+		.shspan {
+			font-size: 14px !important;
+		}
+	}
